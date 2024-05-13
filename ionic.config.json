@@ -1,0 +1,7 @@
+{
+  "name": "mibarrioapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Reporte de Urgencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Descripción de la urgencia</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Tipo de Urgencia</ion-label>
+      <ion-select placeholder="Selecciona uno">
+        <ion-select-option value="baja">Baja</ion-select-option>
+        <ion-select-option value="media">Media</ion-select-option>
+        <ion-select-option value="alta">Alta</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Ciudad</ion-label>
+      <ion-select placeholder="Selecciona uno">
+        <ion-select-option value="SANTIAGO">Santiago</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Comuna</ion-label>
+      <ion-select placeholder="Selecciona la comuna">
+        <ion-select-option value="providencia">Providencia</ion-select-option>
+        <ion-select-option value="lascondes">Las Condes</ion-select-option>
+        <ion-select-option value="vitacura">Vitacura</ion-select-option>
+        <ion-select-option value="ñuñoa">Ñuñoa</ion-select-option>
+        </ion-select>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-button expand="block" color="primary">Enviar Reporte</ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>
